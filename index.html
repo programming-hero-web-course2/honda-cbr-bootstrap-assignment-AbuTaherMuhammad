@@ -7,11 +7,432 @@
     <title>Honda CBR</title>
 
     <!-- Boorstrap Stylesheet -->
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="inc/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white navbar-light">
+            <div class="container">
+                <!-- Brand Name -->
+                <a class="navbar-brand" href="#">Honda CBR</a>
+
+                <!-- Humburger Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-custom">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="h_hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="h_content">
+                            <p>Computer-controlled digital transistorized with electronic advance</p>
+                            <h1 class="mb-12">Honda CBR 300R</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                            <a class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#purchaseModal">Purchase</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="h_content">
+                            <img src="/inc/img/honda-cbr-300r-2-removebg-preview 1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="purchaseModal" tabindex="-1" aria-labelledby="purchaseModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Purchase</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Do you want to purchase this awesome honda bike?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn color-custom outline-custom" data-bs-dismiss="modal">Not sure</button>
+                        <button type="button" class="btn btn-custom">Want to buy</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Section Start -->
+        <section class="h_featured">
+            <div class="container">
+                <div class="h_header">
+                    <h2 class="h_title text-center mb-0">Featured Bikes 2021</h2>
+                    <h4 class="h_subtitle text-center mb-0">Best bike collection</h4>
+                </div>
+                <div class="h_container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img class="img-gs" src="/inc/img/p1.png" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img src="/inc/img/p2.png" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img class="img-gs" src="/inc/img/p3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Featured Section End -->
+        
+        <!-- News Section Start -->
+        <section class="h_latest_news">
+            <div class="container">
+                <div class="h_header">
+                    <h2 class="h_title text-center mb-0">Latest News</h2>
+                </div>
+                <div class="h_container">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <article class="card">  <!-- Card Start -->
+                                <img class="card-img-top rounded" src="/inc/img/b1.png" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title">Ducati XDIAVEL S-73</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                                    <a href="#" class="btn color-custom outline-custom bg-hvr-custom">Read More</a>
+                                </div>
+                            </article>  <!-- Card End -->
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <article class="card">  <!-- Card Start -->
+                                <img class="card-img-top rounded" src="/inc/img/b2.png" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title">Motorcycles & Scooters</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                                    <a href="#" class="btn color-custom outline-custom bg-hvr-custom">Read More</a>
+                                </div>
+                            </article>  <!-- Card End -->
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <article class="card">  <!-- Card Start -->
+                                <img class="card-img-top rounded" src="/inc/img/b3.png" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title">2021 Honda CBR500R</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                                    <a href="#" class="btn color-custom outline-custom bg-hvr-custom">Read More</a>
+                                </div>
+                            </article>  <!-- Card End -->
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- News Section End -->
+        
+        <!-- testimonials Section Start -->
+        <section class="h_testimonials">
+            <div class="container">
+                <div class="h_header">
+                    <h2 class="h_title text-center mb-0">Happy <span>Clients says</span></h2>
+                </div>
+                <div class="h_container">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card">  <!-- Card Start -->
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <img class="card-img-top rounded w-150" src="/inc/img/avarter1.png" alt="">
+                                    <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                                    <ul class="h-inline-menu">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <a class="h-author" href="#">Regina Miles</a>
+                                    <p class="h-designation">Banker</p>
+                                </div>
+                            </div>  <!-- Card End -->
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card">  <!-- Card Start -->
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <img class="card-img-top rounded w-150" src="/inc/img/avarter2.png" alt="">
+                                    <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                                    <ul class="h-inline-menu">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <a class="h-author" href="#">Regina Miles</a>
+                                    <p class="h-designation">Banker</p>
+                                </div>
+                            </div>  <!-- Card End -->
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card">  <!-- Card Start -->
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <img class="card-img-top rounded w-150" src="/inc/img/avarter3.png" alt="">
+                                    <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                                    <ul class="h-inline-menu">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <a class="h-author" href="#">Regina Miles</a>
+                                    <p class="h-designation">Banker</p>
+                                </div>
+                            </div>  <!-- Card End -->
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonials Section End -->
+        
+        <!-- FAQ Section Start -->
+        <section class="h_faq">
+            <div class="container">
+                <div class="h_header">
+                    <h2 class="h_title text-center mb-0">Frequently Asked <span>Questions</span></h2>
+                </div>
+
+                <div class="h_container">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-md-5 col-sm-12">
+                            <img class="img-fluid" src="/inc/img/faq-infographic.png" alt="">
+                        </div>
+
+                        <div class="offset-lg-1 offset-md-1 col-lg-6 col-md-6 col-sm-12">
+                            <div class="accordion" id="accordionExample">
+
+                                <div class="accordion-item">  <!-- According Item Start -->
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What are the most important things I should know about riding a bike?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                    </div>
+                                  </div>
+                                </div>  <!-- According Item End -->
+
+                                <div class="accordion-item">  <!-- According Item Start -->
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How can I tell if my helmet is old and I need a new one?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                    </div>
+                                  </div>
+                                </div>  <!-- According Item End -->
+
+                                <div class="accordion-item">  <!-- According Item Start -->
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                    </div>
+                                  </div>
+                                </div>  <!-- According Item End -->
+
+                                <div class="accordion-item">  <!-- According Item Start -->
+                                  <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                    </div>
+                                  </div>
+                                </div>  <!-- According Item End -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Section End -->
+
+        <!-- About Section Start -->
+        <section class="h_about">
+            <div class="container">
+                <div class="h_header">
+                    <h2 class="h_title text-center mb-0">Our <span>Story</span></h2>
+                </div>
+
+                <div class="h_container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <img class="img-fluid" src="/inc/img/Soichiro_Honda_portrait.jfif" alt="">
+                        </div>
+
+                        <div class="offset-lg-1 offset-md-1 col-lg-8 col-md-8 col-sm-12">
+                            <div class="h_content">
+                                <p>Throughout his life, Honda's founder, Soichiro Honda, had an interest in automobiles. He worked as a mechanic at the Art Shokai garage, where he tuned cars and entered them in races. In 1937, with financing from his acquaintance Kato Shichirō, Honda founded Tōkai Seiki (Eastern Sea Precision Machine Company) to make piston rings working out of the Art Shokai garage.[11] After initial failures, Tōkai Seiki won a contract to supply piston rings to Toyota, but lost the contract due to the poor quality of their products.[11] After attending engineering school without graduating, and visiting factories around Japan to better understand Toyota's quality control processes known as "Five whys", by 1941 Honda was able to mass-produce piston rings acceptable to Toyota, using an automated process that could employ even unskilled wartime laborers.[11][12]:16–19</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Collaboration Section Start -->
+        <section class="h_collaboration">
+            <div class="container">
+                <div class="h_header">
+                    <h2>We are truested by</h2>
+                </div>
+                <div class="h_content">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img src="/inc/img/c.jfif" alt="">
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img src="/inc/img/c1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Collaboration Section End -->
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-12">
+                        <div class="h_content">
+                            
+                            <ul class="h-inline-menu mb-2">
+                                <li>Download Now</li>
+                                <li>License</li>
+                            </ul>
+                            <ul class="h-inline-menu mb-4">
+                                <li>About</li>
+                                <li>Features</li>
+                                <li>Pricing</li>
+                                <li>Careers</li>
+                                <li>Help</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                            <p>&copy; 2020 bike. All rights reserved </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-2 col-sm-12">
+                        <div class="h_content">
+                            <h4 class="mb-4">Get the app</h4>
+                            <img class="mb-3" src="/inc/img/Badg-as.png" alt="">
+                            <img src="/inc/img/Badg-ps.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
 
     <!-- Scripts -->
     <!-- Bootstrap Script -->
